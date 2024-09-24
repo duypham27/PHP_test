@@ -10,7 +10,7 @@
 	if($conn)
 	{	
 		mysqli_query($conn, "SET NAMES 'utf8' ");
-		echo "Connect Database Successful !";
+		//echo "Connect Database Successful !";
 	}
 	else
 	{
