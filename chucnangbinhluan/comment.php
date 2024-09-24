@@ -28,3 +28,8 @@
         <?php echo $row['text_comm'] ?>
 
     <?php } ?>
+
+    <form action="add_comment.php?id_prd=<?php echo $id_prd ?>" method="post" enctype="multipart/form-data">
+        <input type="text" name="text">
+        <button type="submit">Bình Luận</button>
+    </form>
