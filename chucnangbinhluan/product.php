@@ -1,6 +1,6 @@
 <?php
 
-    include ('config/connect.php');
+    include ('connect.php');
     $sql = "SELECT * FROM product";
     $result = mysqli_query($conn, $sql);
     while($row = mysqli_fetch_array($result))
